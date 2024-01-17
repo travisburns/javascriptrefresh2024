@@ -22,12 +22,20 @@
 //strings, numbers, boolean, null, undefined, symbol 
 
 
+// const name = 'John'; //string
+// const age = 30; 
+// const isCool = true;
+// const rating = 4.5;
+// const x = null; 
+// const y = undefined;
+// let z;
+
+// console.log(typeof rating);
+
+
+//concatenation 
 const name = 'John'; //string
 const age = 30; 
-const isCool = true;
-const rating = 4.5;
-const x = null; 
-const y = undefined;
-let z;
 
-console.log(typeof rating);
+const hello = `My name is ${name} and I am ${age}`
+

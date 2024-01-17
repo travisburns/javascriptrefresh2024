@@ -1,5 +1,5 @@
-const test = console.log("This is a test");
+// console.log('hello world');
 
-test();
 
-//this is a test for logging
+// console.error('this is an error');
+// console.warn('THis is a warning');

@@ -10,10 +10,24 @@
 
 //var, es6: let: reasign values, const: constant value
 
-let age = 30;
-age = 31; 
+// let age = 30;
+// age = 31; 
 
-console.log(age)
+// console.log(age);
 
 
 
+
+
+//strings, numbers, boolean, null, undefined, symbol 
+
+
+const name = 'John'; //string
+const age = 30; 
+const isCool = true;
+const rating = 4.5;
+const x = null; 
+const y = undefined;
+let z;
+
+console.log(typeof rating);

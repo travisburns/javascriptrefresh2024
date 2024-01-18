@@ -160,4 +160,54 @@ multiline comments
 //     console.log("x is Not 10")
 // }
 
+//functions
+
+// function addNums(num1, num2) {
+//     console.log(num1 + num2);
+// }
+
+
+// addNums(5,4);
+
+
+//constructor function 
+
+// function Person(firstName, lastName, dob) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = dob;
+//     this.getBirthYear = function() {
+//         return this.dob.getFullYear();
+//     }
+//     this.getFullName = function() {
+//         return `${this.firstName} ${this.lastName}`
+//     }
+
+// }
+
+// //class
+// class Person  {
+//     constructor(firstName, lastName, dob) {
+//         this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = new Date(dob);
+//     }
+    
+//     getBirthYear = function() {
+//         return this.dob.getFullYear();
+//     }
+//     getFullName = function() {
+//         return `${this.firstName} ${this.lastName}`
+//     }
+
+// }
+
+// //instatiate object 
+
+
+// const person1 = new Person('John', 'Doe', '4-3-1980');
+// const person2 = new Person('Mary', 'Smith', '3-6-1970');
+
+// console.log(person1.getBirthYear());
+
 

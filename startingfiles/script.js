@@ -77,3 +77,50 @@
 multiline comments
 
 */
+
+
+//object literals
+
+// const person = {
+//     firstName: 'John',
+//     lastName: 'Doe',
+//     age: 30,
+//     hobbies: ['music', 'movies', 'sports'],
+//     address: {
+//         street: '50 main st',
+//         city: 'Boston',
+//         state: 'MA'
+//     }
+// }
+
+
+// console.log(person.hobbies[1]);
+
+// const { firstName, lastName, address: {city} } = person;
+
+// person.email = 'john@gmail.com'
+
+const todos = [
+    {
+       id: 1,
+       text: 'Take out the trash', 
+       isCompleted: true
+    },
+
+    {
+        id: 2,
+        text: 'Meeting with boss', 
+        isCompleted: true
+     },
+
+     {
+        id: 3,
+        text: 'Dentist appt', 
+        isCompleted: false
+     },
+
+
+
+]
+
+console.log(todos[1].text);

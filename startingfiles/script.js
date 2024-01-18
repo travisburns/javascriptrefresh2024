@@ -34,8 +34,46 @@
 
 
 //concatenation 
-const name = 'John'; //string
-const age = 30; 
+// const name = 'John'; //string
+// const age = 30; 
 
-const hello = `My name is ${name} and I am ${age}`
+// const hello = `My name is ${name} and I am ${age}`
 
+
+//string methods
+
+// const s = "hello world";
+
+// console.log();
+
+
+//array methods
+//constructor method
+// const numbers = new Array(1, 2, 3);
+
+// console.log(numbers)
+//traditional method
+
+// const fruits = ['apples', 'oranges', 'pears'];
+
+// fruits[3] = 'grapes';
+
+// fruits.push('mangos');
+
+// fruits.unshift('strawberries');
+
+// fruits.pop();
+
+// console.log(Array.isArray('hello'));
+
+// console.log(fruits.indexOf('oranges'));
+
+// console.log(fruits);
+
+// console.log(fruits[1]);
+
+
+/*   
+multiline comments
+
+*/

@@ -130,21 +130,34 @@ multiline comments
 
 //For loops
 
-for(let i = 0; i < 10; i++) {
-    console.log(`For Loop Number: ${i}`);
-}
+// for(let i = 0; i < 10; i++) {
+//     console.log(`For Loop Number: ${i}`);
+// }
 
 
-//while loop 
+// //while loop 
 
-let i = 0; 
-while(i < 10) {
-    console.log(`While Lopp Number: ${i}`)
-    i++;
-}
-//for of loop. the todo is any value within todos 
+// let i = 0; 
+// while(i < 10) {
+//     console.log(`While Lopp Number: ${i}`)
+//     i++;
+// }
+// //for of loop. the todo is any value within todos 
 
-for(let todo of todos) {
-    console.log(todo.text)
-}
+// for(let todo of todos) {
+//     console.log(todo.text)
+// }
+
+
+
+//if statements 
+
+// const x = 10;
+
+// if(x===10) {
+//     console.log('x is 10');
+// } else {
+//     console.log("x is Not 10")
+// }
+
 

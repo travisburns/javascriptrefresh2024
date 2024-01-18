@@ -211,3 +211,7 @@ multiline comments
 // console.log(person1.getBirthYear());
 
 
+
+//DOM
+
+

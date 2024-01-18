@@ -100,27 +100,51 @@ multiline comments
 
 // person.email = 'john@gmail.com'
 
-const todos = [
-    {
-       id: 1,
-       text: 'Take out the trash', 
-       isCompleted: true
-    },
+// const todos = [
+//     {
+//        id: 1,
+//        text: 'Take out the trash', 
+//        isCompleted: true
+//     },
 
-    {
-        id: 2,
-        text: 'Meeting with boss', 
-        isCompleted: true
-     },
+//     {
+//         id: 2,
+//         text: 'Meeting with boss', 
+//         isCompleted: true
+//      },
 
-     {
-        id: 3,
-        text: 'Dentist appt', 
-        isCompleted: false
-     },
+//      {
+//         id: 3,
+//         text: 'Dentist appt', 
+//         isCompleted: false
+//      },
 
 
 
-]
+// ]
 
-console.log(todos[1].text);
+// console.log(todos[1].text);
+
+// const todoJSON = JSON.stringify(todos);
+
+
+//For loops
+
+for(let i = 0; i < 10; i++) {
+    console.log(`For Loop Number: ${i}`);
+}
+
+
+//while loop 
+
+let i = 0; 
+while(i < 10) {
+    console.log(`While Lopp Number: ${i}`)
+    i++;
+}
+//for of loop. the todo is any value within todos 
+
+for(let todo of todos) {
+    console.log(todo.text)
+}
+
